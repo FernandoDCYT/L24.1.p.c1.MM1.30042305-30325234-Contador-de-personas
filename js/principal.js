@@ -8,7 +8,7 @@ let persona4= new Cl_personas ("Carmen","F");
 let persona5= new Cl_personas ("Rosa","F");
 let persona6= new Cl_personas ("Jose","M");
 let persona7= new Cl_personas ("Maria","F");
-let persona8= new Cl_personas ("Luz","F");
+let persona8= new Cl_personas ("Luz","M");
 let persona9= new Cl_personas ("Rafael","M");
 let persona10= new Cl_personas ("Liz","F");
 let persona11= new Cl_personas ("Marcos","M");
@@ -31,9 +31,9 @@ contador.ProcesarPersonas(persona12);
 
 let salida=document.getElementById("salida");
 salida.innerHTML= `
-Cantidad de Personas ${contador.contPersonas}<br>
-Cantidad de Hombres ${contador.contM} <br>
-Cantidad de Mujeres ${contador.contF}
+Cantidad de Personas: ${contador.contPersonas}<br>
+Cantidad de Hombres: ${contador.contM} <br>
+Cantidad de Mujeres: ${contador.contF}
 `
 
 
